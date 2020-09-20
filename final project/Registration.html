@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>Registration</title>
+</head>
+
+<body>
+    <table border="0" width="960px" align="centre" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="2">
+
+            </td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <table border="0" cellspacing="5" cellpadding="5" width="100%">
+                    <tr>
+                        <td>Home</td>
+                    </tr>
+                    <tr>
+                        <td>About</td>
+                    </tr>
+                    <tr>
+                        <td>Download</td>
+                    </tr>
+                    <tr>
+                        <td>Contact</td>
+                    </tr>
+
+                </table>
+            </td>
+            <td valign="top">
+                <form action="#" name="login" method="POST">
+                    <fieldset>
+                        <legend>Regestration</legend>
+                        <label>Username</label>
+                        <input type="text" name="username" size="25" required="required" placeholder="username" maxlength="50" /><br/>
+                        <label>Password</label>
+                        <input type="password" name="password" size="25" required="required" placeholder="password" maxlength="50" /><br/>
+
+                        <label>email</label>
+                        <input type="email" name="email" placeholder="you@domain.com" required="required" />
+                        <br>
+                        <lable>courses</lable>
+                        <input type="checkbox" name="php" value="php" checked="checked">PHP
+                        <input type="checkbox" name="java" value="java">JAVA
+                        <input type="checkbox" name="dotnet" value="dotnet">.NET<br>
+                        <label>Gender</label>
+                        <input type="radio" name="gender" value="male" checked="checked" />male
+                        <input type="radio" name="gender" value="fermale" />female
+                        <input type="radio" name="gender" value="other" />other
+                        <br/>
+                        <label>Your photo</label>
+                        <input type="file" name="photo" />
+                        <br>
+                        <input type="hidden" name="name" value="Rabindra" />
+                        <label>country</label>
+                        <select>
+                            <option value="-">--choose--</option>
+                            <option value="Nepal" selected="selected">Nepal</option>
+                            <option value="India">India</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="Bhutan">Bhutan</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="Australia">Australia</option>
+                           </select>
+                        <br>
+                        <label>comments and suggestions</label>
+                        <textarea name="message" rows="6" cols="50"></textarea>
+                        <br>
+                        <label>DOB</label>
+                        <input type="date" name="dob" />
+                        <br/>
+                        <input type="submit" name="submit" value="Register">
+                        <input type="reset" name="reset" value="clear">
+                    </fieldset>
+                </form>
+            </td>
+            <tr>
+                <td colspan="2">Footer</td>
+            </tr>
+    </table>
+</body>
+
+</html>
